@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Mac
+.DS_Store
+
+# Runtime-generated reports
+reports/*.md
+reports/audit_log.jsonl
+
+# Keep reports folder
+!reports/.gitkeep
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+*.token
+secrets/
+credentials/
