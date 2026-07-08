@@ -56,10 +56,16 @@ For this repo, Repomix may include:
 - `docs/SCOPE.md`
 - `docs/SAFETY_CHECKLIST.md`
 - `docs/AI_CONTEXT_WORKFLOW.md`
+- `docs/AI_HANDOFF_PROMPTS.md`
 - `docs/REPOMIX_WORKFLOW.md`
+- `docs/MARKITDOWN_WORKFLOW.md`
+- `docs/BASIC_MEMORY_SANDBOX.md`
+- `docs/MCP_ACCESS_PLAN.md`
 - future public-safe prompt templates
 - future public-safe workflow docs
 - synthetic examples only
+
+Use the smallest useful file set for the current issue. Do not include generated context packages by default.
 
 ## Required Excludes
 
