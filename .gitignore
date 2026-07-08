@@ -1,20 +1,16 @@
-# Python
+# Generated AI context packages
+repomix-output.md
+
+# Python/local artifacts
 __pycache__/
 *.py[cod]
+.pytest_cache/
 .venv/
 venv/
 env/
-.pytest_cache/
 
 # Mac
 .DS_Store
-
-# Runtime-generated reports
-reports/*.md
-reports/audit_log.jsonl
-
-# Keep reports folder
-!reports/.gitkeep
 
 # Secrets
 .env
