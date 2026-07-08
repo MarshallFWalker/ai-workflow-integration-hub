@@ -100,6 +100,7 @@ Do not add more agent frameworks unless the current lane clearly fails.
     ├── SCOPE.md
     └── examples/
         ├── PUBLIC_SAFE_AI_REVIEW.md
+        ├── PUBLIC_SAFE_MARKITDOWN_CONVERSION.md
         └── PUBLIC_SAFE_REPOMIX_HANDOFF.md
 ```
 
@@ -108,6 +109,7 @@ Do not add more agent frameworks unless the current lane clearly fails.
 Start with:
 
 - [`docs/examples/PUBLIC_SAFE_AI_REVIEW.md`](docs/examples/PUBLIC_SAFE_AI_REVIEW.md) — a small public-safe AI review workflow
+- [`docs/examples/PUBLIC_SAFE_MARKITDOWN_CONVERSION.md`](docs/examples/PUBLIC_SAFE_MARKITDOWN_CONVERSION.md) — a safe one-file MarkItDown conversion workflow
 - [`docs/examples/PUBLIC_SAFE_REPOMIX_HANDOFF.md`](docs/examples/PUBLIC_SAFE_REPOMIX_HANDOFF.md) — a safe Repomix-to-AI handoff workflow
 
 Examples should stay synthetic, narrow, and reversible.
@@ -125,6 +127,7 @@ The first workflow foundation is complete:
 7. MCP host setup notes and retry plan
 8. Public-safe AI review example
 9. Public-safe Repomix handoff example
+10. Public-safe MarkItDown conversion example
 
 Next work should be issue-scoped cleanup, testing, or public-safe examples. Do not add new tools until the current lane has been tested.
 
