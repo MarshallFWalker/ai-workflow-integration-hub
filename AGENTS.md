@@ -146,12 +146,12 @@ Stop and ask before continuing if:
 
 ## Current Priority
 
-The current priority is safety foundation and workflow documentation:
+The first workflow foundation is complete.
 
-1. Project definition
-2. Scope
-3. AGENTS.md
-4. Safety checklist
-5. AI context workflow
+Current priority is to keep the repo accurate, public-safe, and issue-scoped while testing the approved lane:
 
-Do not skip ahead into tool installation until these boundaries are complete.
+1. Keep README and index docs current.
+2. Use GitHub issues for each discrete change.
+3. Test Repomix, MarkItDown, Basic Memory sandbox, and controlled MCP only in the approved order.
+4. Do not add new tools unless the current lane clearly fails.
+5. Do not drift into private local system feature polish.
