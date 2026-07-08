@@ -97,8 +97,18 @@ Do not add more agent frameworks unless the current lane clearly fails.
     ├── PROJECT_DEFINITION.md
     ├── REPOMIX_WORKFLOW.md
     ├── SAFETY_CHECKLIST.md
-    └── SCOPE.md
+    ├── SCOPE.md
+    └── examples/
+        └── PUBLIC_SAFE_AI_REVIEW.md
 ```
+
+## Examples
+
+Start with:
+
+- [`docs/examples/PUBLIC_SAFE_AI_REVIEW.md`](docs/examples/PUBLIC_SAFE_AI_REVIEW.md) — a small public-safe AI review workflow
+
+Examples should stay synthetic, narrow, and reversible.
 
 ## Completed Foundation
 
@@ -111,6 +121,7 @@ The first workflow foundation is complete:
 5. Basic Memory sandbox experiment plan
 6. Controlled MCP access plan
 7. MCP host setup notes and retry plan
+8. Public-safe AI review example
 
 Next work should be issue-scoped cleanup, testing, or public-safe examples. Do not add new tools until the current lane has been tested.
 
