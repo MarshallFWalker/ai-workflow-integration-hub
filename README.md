@@ -18,6 +18,7 @@ Read these first:
 8. [`docs/MARKITDOWN_WORKFLOW.md`](docs/MARKITDOWN_WORKFLOW.md) — safe file-to-Markdown conversion workflow
 9. [`docs/BASIC_MEMORY_SANDBOX.md`](docs/BASIC_MEMORY_SANDBOX.md) — sandbox-only Basic Memory experiment plan
 10. [`docs/MCP_ACCESS_PLAN.md`](docs/MCP_ACCESS_PLAN.md) — controlled MCP access plan
+11. [`docs/MCP_HOST_SETUP_NOTES.md`](docs/MCP_HOST_SETUP_NOTES.md) — MCP host test results and retry plan
 
 ## What This Repo Is
 
@@ -92,6 +93,7 @@ Do not add more agent frameworks unless the current lane clearly fails.
     ├── BASIC_MEMORY_SANDBOX.md
     ├── MARKITDOWN_WORKFLOW.md
     ├── MCP_ACCESS_PLAN.md
+    ├── MCP_HOST_SETUP_NOTES.md
     ├── PROJECT_DEFINITION.md
     ├── REPOMIX_WORKFLOW.md
     ├── SAFETY_CHECKLIST.md
@@ -108,6 +110,7 @@ The first workflow foundation is complete:
 4. MarkItDown conversion workflow
 5. Basic Memory sandbox experiment plan
 6. Controlled MCP access plan
+7. MCP host setup notes and retry plan
 
 Next work should be issue-scoped cleanup, testing, or public-safe examples. Do not add new tools until the current lane has been tested.
 
