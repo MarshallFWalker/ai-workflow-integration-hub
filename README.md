@@ -13,6 +13,11 @@ Read these first:
 3. [`AGENTS.md`](AGENTS.md) — rules for Codex, Claude, ChatGPT, and other AI agents
 4. [`docs/SAFETY_CHECKLIST.md`](docs/SAFETY_CHECKLIST.md) — pre-commit, pre-push, and AI handoff safety checks
 5. [`docs/AI_CONTEXT_WORKFLOW.md`](docs/AI_CONTEXT_WORKFLOW.md) — how to prepare repo context for AI tools safely
+6. [`docs/AI_HANDOFF_PROMPTS.md`](docs/AI_HANDOFF_PROMPTS.md) — copy-paste prompts for ChatGPT, Claude, Codex, GitHub, and local AI
+7. [`docs/REPOMIX_WORKFLOW.md`](docs/REPOMIX_WORKFLOW.md) — public-safe repo context packaging workflow
+8. [`docs/MARKITDOWN_WORKFLOW.md`](docs/MARKITDOWN_WORKFLOW.md) — safe file-to-Markdown conversion workflow
+9. [`docs/BASIC_MEMORY_SANDBOX.md`](docs/BASIC_MEMORY_SANDBOX.md) — sandbox-only Basic Memory experiment plan
+10. [`docs/MCP_ACCESS_PLAN.md`](docs/MCP_ACCESS_PLAN.md) — controlled MCP access plan
 
 ## What This Repo Is
 
@@ -83,19 +88,28 @@ Do not add more agent frameworks unless the current lane clearly fails.
 ├── README.md
 └── docs/
     ├── AI_CONTEXT_WORKFLOW.md
+    ├── AI_HANDOFF_PROMPTS.md
+    ├── BASIC_MEMORY_SANDBOX.md
+    ├── MARKITDOWN_WORKFLOW.md
+    ├── MCP_ACCESS_PLAN.md
     ├── PROJECT_DEFINITION.md
+    ├── REPOMIX_WORKFLOW.md
     ├── SAFETY_CHECKLIST.md
     └── SCOPE.md
 ```
 
-## Current Buildout Issues
+## Completed Foundation
 
-1. Add README quickstart and repo map
-2. Document Repomix repo-context workflow
-3. Add AI handoff prompt templates
-4. Document MarkItDown conversion workflow
-5. Plan Basic Memory sandbox experiment
-6. Plan controlled MCP access layer
+The first workflow foundation is complete:
+
+1. README quickstart and repo map
+2. Repomix repo-context workflow
+3. AI handoff prompt templates
+4. MarkItDown conversion workflow
+5. Basic Memory sandbox experiment plan
+6. Controlled MCP access plan
+
+Next work should be issue-scoped cleanup, testing, or public-safe examples. Do not add new tools until the current lane has been tested.
 
 ## Default Workflow
 
