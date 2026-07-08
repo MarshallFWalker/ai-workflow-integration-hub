@@ -57,15 +57,20 @@ Do not use this workflow for private personal memory, finances, health, relation
 
 A useful public-safe AI context package should usually include:
 
-- README.md
-- AGENTS.md
-- docs/PROJECT_DEFINITION.md
-- docs/SCOPE.md
-- docs/SAFETY_CHECKLIST.md
-- docs/AI_CONTEXT_WORKFLOW.md
-- relevant prompt templates
-- relevant workflow docs
-- synthetic examples only
+- `README.md`
+- `AGENTS.md`
+- `docs/PROJECT_DEFINITION.md`
+- `docs/SCOPE.md`
+- `docs/SAFETY_CHECKLIST.md`
+- `docs/AI_CONTEXT_WORKFLOW.md`
+- `docs/AI_HANDOFF_PROMPTS.md`
+- `docs/REPOMIX_WORKFLOW.md`
+- `docs/MARKITDOWN_WORKFLOW.md`
+- `docs/BASIC_MEMORY_SANDBOX.md`
+- `docs/MCP_ACCESS_PLAN.md`
+- synthetic examples only, when relevant
+
+Use the smallest subset that supports the current issue. Do not include generated context packages unless they are intentionally public-safe and reviewed.
 
 ## Exclude Patterns
 
