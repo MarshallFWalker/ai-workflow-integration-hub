@@ -192,6 +192,16 @@ Stop immediately if you see:
 - tool output copied from a private workflow
 - anything that looks like personal state
 
+## If Private Data Was Committed
+
+Deleting the file in a new commit does not remove it. Git history keeps it.
+
+1. Stop. Do not push. If already pushed, assume the data was seen.
+2. If credentials, tokens, or keys leaked, revoke and rotate them immediately.
+3. Remove the data from git history, not just the working tree, before any new push.
+4. If it reached public GitHub, contact GitHub support to clear cached views.
+5. Note which checklist step failed and tighten it.
+
 ## Correct Flow
 
 ```text
